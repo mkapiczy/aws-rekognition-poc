@@ -12,10 +12,10 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class AWSRekognitionConfig {
-    @Value("${aws.access-key}")
+    @Value("${aws_access_key_id}")
     private String accessKey;
 
-    @Value("${aws.secret-key}")
+    @Value("${aws_secret_access_key}")
     private String secretKey;
 
     @Value("${aws_region}")
